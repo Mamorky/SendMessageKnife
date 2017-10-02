@@ -45,6 +45,7 @@ public class SendMessageActivity extends AppCompatActivity {
         // Vincular el ButterKnife
         ButterKnife.bind(this);}
 
+        //Método OnClick que es gestinoado por ButterKnife
         @OnClick(R.id.btnOk)
         public void getOnClick(View view)
         {
